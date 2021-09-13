@@ -23,8 +23,8 @@ Sturcture-from-Motion using [COLMAP](https://colmap.github.io/index.html)
    `python colmap_sparse_to_depth.py`
 
 ## Visualize
-![](https://img2020.cnblogs.com/blog/1511168/202107/1511168-20210719221743917-1046669018.jpg)
-<center> Fig 2. predictions result </center>
+![](https://github.com/XYZ-qiyh/colmap-sparse-recon/blob/main/figure/figure2_sfm_result.png)
+<center> the results of sparse reconstruction </center>
 
  <table align="center">
   <tr>
