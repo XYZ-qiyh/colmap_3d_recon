@@ -21,3 +21,15 @@ Sturcture-from-Motion using [COLMAP](https://colmap.github.io/index.html)
 
 2. convert sparse points to sparse depth map
    `python colmap_sparse_to_depth.py`
+
+## Visualize
+ <table align="center">
+  <tr>
+    <td><img src="https://github.com/Todd-Qi/GMapping-ROS-Navigation/blob/master/map/lab-map.jpg" width="480" height="270"></td>
+    <td><img src="https://github.com/Todd-Qi/GMapping-ROS-Navigation/blob/master/map/lab-2d-grid-map.png" width="480" height="270"></td>
+  </tr>
+  <tr>
+    <td>laboratory environment</td>
+    <td>2d grid map</td>
+  </tr>
+</table>
