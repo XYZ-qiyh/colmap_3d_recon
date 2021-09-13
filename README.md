@@ -24,7 +24,9 @@ Sturcture-from-Motion using [COLMAP](https://colmap.github.io/index.html)
 
 ## Visualize
 
-<div align=center> <img width=780 height=640 src="https://github.com/XYZ-qiyh/colmap-sparse-recon/blob/main/figure/figure2_sfm_result.png">
+<div align=center> 
+   <img width=640 height=520 src="https://github.com/XYZ-qiyh/colmap-sparse-recon/blob/main/figure/figure2_sfm_result.png">
+   The result of sparse reconstruction
 </div>
 
  <table align="center">
