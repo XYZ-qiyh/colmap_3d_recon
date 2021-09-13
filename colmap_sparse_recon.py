@@ -88,22 +88,19 @@ def colmap_sfm2log(scan): # use for tanks and temples evaluation
 
 
 if __name__ == "__main__":
-    #testlist = "/mnt/A/qiyh/2021/CIDER_pytorch/lists/dtu/test.txt"
-    #testlist = "/mnt/A/qiyh/2021/CIDER_pytorch/lists/tanks/intermediate.txt"
-   
-    #with open(testlist) as f:
-    #    scans = f.readlines()
-    #    scans = [line.rstrip() for line in scans]
+    # testlist = "./lists/tanks/intermediate.txt"   
+    # with open(testlist) as f:
+    #     scans = f.readlines()
+    #     scans = [line.rstrip() for line in scans]
+    
     scans = ["Barn", "Caterpillar", "Church", "Courthouse", "Ignatius", "Meetingroom", "Truck"]
     
-    scans = ["Barn"]
     print("len of scans: {}".format(len(scans)))
     print("scans: {}".format(scans))
 
-
     for scan in scans:
         scan = os.path.join(dataset_path, scan)
-        # colmap_sparse_recon(scan)
+        colmap_sparse_recon(scan)
         # colmap_to_mvsnet(scan)
         # colmap_model_converter(scan)
         # colmap_sfm2log(scan)
