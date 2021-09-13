@@ -23,8 +23,9 @@ Sturcture-from-Motion using [COLMAP](https://colmap.github.io/index.html)
    `python colmap_sparse_to_depth.py`
 
 ## Visualize
-![](https://github.com/XYZ-qiyh/colmap-sparse-recon/blob/main/figure/figure2_sfm_result.png)
-<center> the results of sparse reconstruction </center>
+
+<div align=center> <img width=780 height=640 src="https://github.com/XYZ-qiyh/colmap-sparse-recon/blob/main/figure/figure2_sfm_result.png">
+</div>
 
  <table align="center">
   <tr>
