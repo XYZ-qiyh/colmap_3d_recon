@@ -6,3 +6,18 @@ Sturcture-from-Motion using [COLMAP](https://colmap.github.io/index.html)
 * input: unordered images
 * outputs: the pose estimates for registered images and the reconstructed scene structure as a set of points
 
+## How to use
+0. prepare data and build colmap
+   + [Download data](https://github.com/YoYo000/MVSNet#download) preprocessed by MVSNet (Yao et al.)
+   + Build [colmap](https://github.com/colmap/colmap/tree/3.6) (we use version 3.6)
+   + modify the `dataset_path`, `colmap_exe_path` in `colmap_sparse_recon.py` and `colmap_sparse_recon_posed.py`
+
+1. sparse recon using colmap
+   + For Tanks and Temples 
+     `python colmap_sparse_recon.py`
+
+   + For DTU (images with known camera poses)
+     `python colmap_sparse_recon_posed.py`
+
+2. convert sparse points to sparse depth map
+   `python colmap_sparse_to_depth.py`
