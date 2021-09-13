@@ -25,11 +25,11 @@ Sturcture-from-Motion using [COLMAP](https://colmap.github.io/index.html)
 ## Visualize
  <table align="center">
   <tr>
-    <td><img src="https://github.com/Todd-Qi/GMapping-ROS-Navigation/blob/master/map/lab-map.jpg" width="480" height="270"></td>
-    <td><img src="https://github.com/Todd-Qi/GMapping-ROS-Navigation/blob/master/map/lab-2d-grid-map.png" width="480" height="270"></td>
+    <td><img src="https://github.com/XYZ-qiyh/colmap-sparse-recon/blob/main/figure/figure3_rgb.jpg" width="400" height="300"></td>
+    <td><img src="https://github.com/XYZ-qiyh/colmap-sparse-recon/blob/main/figure/figure4_sparse.png" width="400" height="300"></td>
   </tr>
   <tr>
-    <td>laboratory environment</td>
-    <td>2d grid map</td>
+    <td>RGB image</td>
+    <td>sparse depth map</td>
   </tr>
 </table>
