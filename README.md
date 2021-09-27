@@ -36,7 +36,7 @@ Sturcture-from-Motion using [COLMAP](https://colmap.github.io/index.html)
  <table align="center">
   <tr>
     <td><img src="https://github.com/XYZ-qiyh/colmap-sparse-recon/blob/main/figure/figure3_rgb.jpg" width="400" height="300"></td>
-    <td><img src="https://github.com/XYZ-qiyh/colmap-sparse-recon/blob/main/figure/figure4_sparse.png" width="400" height="300"></td>
+    <td><img src="https://github.com/XYZ-qiyh/colmap-sparse-recon/blob/main/figure/figure4_sparse.jpg" width="400" height="300"></td>
   </tr>
   <tr>
     <td>RGB image</td>
