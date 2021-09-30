@@ -48,3 +48,6 @@ Sturcture-from-Motion using [COLMAP](https://colmap.github.io/index.html)
     <td>sparse depth map</td>
   </tr>
 </table>
+
+## Acknowledgement
+   + The image set of [SceauxCastle](https://github.com/openMVG/ImageDataset_SceauxCastle) is provided by the author of OpenMVG.
