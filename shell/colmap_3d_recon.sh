@@ -1,4 +1,10 @@
 #!/bin/sh
+
+# command line interface to run colmap reconstruction
+# Link: https://colmap.github.io/cli.html#command-line-interface
+# Author: XYZ-qiyh (2021-12-04)
+# Another example: https://github.com/isl-org/TanksAndTemples/blob/master/python_toolbox/get_colmap_reconstruction.sh
+
 EXE_PATH="/mnt/A/qiyh/2021/3rd_party_lib/colmap-3.6/build/src/exe/colmap"
 
 export CUDA_VISIBLE_DEVICES=1
