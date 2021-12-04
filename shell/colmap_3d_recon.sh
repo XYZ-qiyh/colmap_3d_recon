@@ -73,6 +73,7 @@ $EXE_PATH stereo_fusion \
 
 #########################################
 # Poisson Surface Recon
+# https://github.com/mkazhdan/PoissonRecon
 #########################################
 # $EXE_PATH poisson_mesher \
 #     --input_path $DATASET_PATH/dense/fused.ply \
