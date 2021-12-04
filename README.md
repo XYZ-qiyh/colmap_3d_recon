@@ -1,4 +1,4 @@
-# colmap-sparse-recon
+# colmap_sparse_recon
 <img src="figure/figure1_sfm.png">
 
 Sturcture-from-Motion using [COLMAP](https://colmap.github.io/index.html)
@@ -13,7 +13,7 @@ Sturcture-from-Motion using [COLMAP](https://colmap.github.io/index.html)
    + modify the `dataset_path`, `colmap_exe_path` in `colmap_sparse_recon.py` and `colmap_sparse_recon_posed.py`
 
 1. sparse recon using colmap
-   + For Tanks and Temples 
+   + For Tanks and Temples training set
      `python colmap_sparse_recon.py`
 
    + For DTU (images with known camera poses)
