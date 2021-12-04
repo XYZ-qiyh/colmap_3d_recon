@@ -17,7 +17,8 @@ Sturcture-from-Motion using [COLMAP](https://colmap.github.io/index.html)
      `python colmap_sparse_recon.py`
 
    + For DTU (images with known camera poses)
-     `python colmap_sparse_recon_posed.py`
+     `python colmap_sparse_recon_posed.py`. 
+     You can download the triangulated sparse point cloud for DTU via [BaiduNetDisk](https://pan.baidu.com/s/1FOtDwFgo8CZzNn1_PTBjjw), Fetch Code: `3puk`
 
 2. convert sparse points to sparse depth map
    `python colmap_sparse_to_depth.py`
