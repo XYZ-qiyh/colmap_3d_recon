@@ -1,5 +1,5 @@
 # colmap_sparse_recon
-<img src="figure/figure1_sfm.png">
+<img src="images/sfm_castle.png">
 
 Sturcture-from-Motion using [COLMAP](https://colmap.github.io/index.html)
 
@@ -30,23 +30,22 @@ Sturcture-from-Motion using [COLMAP](https://colmap.github.io/index.html)
 2. Visualize the sparse depthmap
    + `python visualize_sparse.py xxx.pfm`
 
- <table align="center">
-  <tr>
-    <td><img width=640 height=520 src="https://github.com/XYZ-qiyh/colmap-sparse-recon/blob/main/figure/figure2_sfm_result.png"></td>
-  </tr>
-  <tr>
-    <td>The result of sparse reconstruction</td>
-  </tr>
-</table>
 
  <table align="center">
   <tr>
-    <td><img src="https://github.com/XYZ-qiyh/colmap-sparse-recon/blob/main/figure/figure3_rgb.jpg" width="400" height="300"></td>
-    <td><img src="https://github.com/XYZ-qiyh/colmap-sparse-recon/blob/main/figure/figure4_sparse.jpg" width="400" height="300"></td>
+    <td><img src="images/scan4_vid11.jpg" width="400" height="300"></td>
+    <td><img src="images/scan4_sparse_points.png" width="400"></td>
   </tr>
   <tr>
     <td>RGB image</td>
+    <td>structure-from-motion</td>
+  </tr>  <tr>
+    <td><img src="images/scan4_vid11_sparse_depth.jpg" width="400" height="300"></td>
+    <td><img src="images/scan4_fused_ply.png" width="400"></td>
+  </tr>
+  <tr>
     <td>sparse depth map</td>
+    <td>dense point cloud</td>
   </tr>
 </table>
 
