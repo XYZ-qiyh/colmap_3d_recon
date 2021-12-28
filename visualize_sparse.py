@@ -1,6 +1,7 @@
 import numpy as np
 import cv2
 import argparse
+import re
 
 
 def read_pfm(filename):
@@ -52,9 +53,9 @@ def write_sparse_depth_img(filename, depth_image):
     out_depth_image[depth_image==0] = (255, 255, 255)
     # draw bounding box
     # print(depth_image.shape)
-    end_x, end_y = depth_image.shape[0], depth_image.shape[1]
-    print("end_x: {}, end_y: {}".format(end_x, end_y))
-    out_depth_image = cv2.rectangle(out_depth_image, (0, 0), (end_y-1, end_x-1), color = (0, 0, 0), thickness=1)
+    #end_x, end_y = depth_image.shape[0], depth_image.shape[1]
+    #print("end_x: {}, end_y: {}".format(end_x, end_y))
+    #out_depth_image = cv2.rectangle(out_depth_image, (0, 0), (end_y-1, end_x-1), color = (0, 0, 0), thickness=1)
     
     cv2.imwrite(filename, out_depth_image)    
 
