@@ -58,7 +58,7 @@ def prepare_cameras(scan):
         cameras[camera_id] = Camera(id=camera_id, model=model, width=width, height=height, params=params)
         
     # write cameras txt
-    cameras_txt = os.path.join(scan, "sparse_colmap_v2/manually_created", "cameras.txt")
+    cameras_txt = os.path.join(scan, "sparse_colmap/manually_created", "cameras.txt")
     write_cameras_text(cameras, cameras_txt)
 
 
@@ -82,12 +82,12 @@ def prepare_images(scan, metas):
                                  xys=xys, point3D_ids=point3D_ids)
                                  
     # write images txt
-    images_txt = os.path.join(scan, "sparse_colmap_v2/manually_created", "images.txt")
+    images_txt = os.path.join(scan, "sparse_colmap/manually_created", "images.txt")
     write_images_text(images, images_txt)
 
 
 def prepare_points3D(scan):
-    points3D_txt = os.path.join(scan, "sparse_colmap_v2/manually_created", "points3D.txt")
+    points3D_txt = os.path.join(scan, "sparse_colmap/manually_created", "points3D.txt")
     if not os.path.exists(points3D_txt):
         f = open(points3D_txt, 'w')
         f.close()
@@ -113,15 +113,15 @@ def colmap_exhaustive_matcher(scan):
 
 
 def colmap_point_triangulator(scan):
-    sparse_folder = os.path.join(scan, "sparse_colmap_v2/triangulator")
+    sparse_folder = os.path.join(scan, "sparse_colmap/triangulator")
     if not os.path.exists(sparse_folder):
         os.mkdir(sparse_folder)
 
     cmd = colmap_exe_path + ' point_triangulator '
     cmd = cmd + ' --database_path ' + '{}/database.db'.format(scan)
     cmd = cmd + ' --image_path ' + '{}/images '.format(scan)
-    cmd = cmd + ' --input_path ' + '{}/sparse_colmap_v2/manually_created'.format(scan)
-    cmd = cmd + ' --output_path ' + '{}/sparse_colmap_v2/triangulator'.format(scan)
+    cmd = cmd + ' --input_path ' + '{}/sparse_colmap/manually_created'.format(scan)
+    cmd = cmd + ' --output_path ' + '{}/sparse_colmap/triangulator'.format(scan)
     print(cmd)
     os.system(cmd)
 
@@ -143,11 +143,11 @@ if __name__ == "__main__":
         check_database(scan) # check whether the database.db file exists, remove it if exists
         
         # mkdir sparse folder
-        sparse_folder = os.path.join(scan, "sparse_colmap_v2")
+        sparse_folder = os.path.join(scan, "sparse_colmap")
         if not os.path.exists(sparse_folder):
             os.mkdir(sparse_folder)
           
-        sparse_folder_1 = os.path.join(scan, "sparse_colmap_v2/manually_created")
+        sparse_folder_1 = os.path.join(scan, "sparse_colmap/manually_created")
         if not os.path.exists(sparse_folder_1):
             os.mkdir(sparse_folder_1)            
             
