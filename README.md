@@ -23,7 +23,7 @@ Sturcture-from-Motion using [COLMAP](https://colmap.github.io/index.html)
 2. convert sparse points to sparse depth map
    `python colmap_sparse_to_depth.py`
 
-## Visualize
+## Visualization
 1. Visualize the sparse points
    + Use COLMAP GUI --> File --> Import model --> Select the sparse folder which contains cameras, images and points3D files (.bin/.txt)
 
