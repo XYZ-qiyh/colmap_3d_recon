@@ -23,7 +23,8 @@ Sturcture-from-Motion using [COLMAP](https://colmap.github.io/index.html)
    + the results of the sparse reconstruction cloud be represented as `cameras.bin`, `images.bin` and `points3D.bin`
 
 3. convert sparse points to sparse depth map
-   `python colmap_sparse_to_depth.py`, the sparse depth map is saved as `pfm` file
+   + run  `python colmap_sparse_to_depth.py`, the sparse depth map is saved as the `pfm` file
+   + the resolution of the sparse depth map could be adjusted by modifying the `new_w` and `new_h`
 
 ## Visualization
 1. Visualize the sparse points
