@@ -15,7 +15,7 @@ Sturcture-from-Motion using [COLMAP](https://colmap.github.io/index.html)
 2. sparse reconstruction using colmap
    + For DTU (images with known camera poses)
      `python colmap_sparse_recon_posed.py`. 
-     You can download the triangulated sparse point cloud for DTU via OneDrive or [BaiduNetDisk](https://pan.baidu.com/s/1FOtDwFgo8CZzNn1_PTBjjw), Fetch Code: `3puk`
+     You can download the triangulated sparse point cloud for DTU via [GoogleDrive](https://drive.google.com/file/d/138S3jbKH_weqMsIeI4C8m2mV60Jyxr6i/view?usp=sharing) or [BaiduNetDisk](https://pan.baidu.com/s/1FOtDwFgo8CZzNn1_PTBjjw), Fetch Code: `3puk`
      
    + For Tanks and Temples training set
      `python colmap_sparse_recon.py`
@@ -53,4 +53,4 @@ Sturcture-from-Motion using [COLMAP](https://colmap.github.io/index.html)
 </table>
 
 ## Acknowledgement
-   + The image set of [SceauxCastle](https://github.com/openMVG/ImageDataset_SceauxCastle) is provided by the author of OpenMVG.
+The image set of [SceauxCastle](https://github.com/openMVG/ImageDataset_SceauxCastle) is provided by the author of OpenMVG.
