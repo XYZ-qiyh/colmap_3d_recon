@@ -118,8 +118,8 @@ def colmap_sparse_to_depth(scan_folder):
 
         '''save_pfm'''
         #out_filename = "{0:08d}".format(image_id-1) + "_sparse.pfm"
-        out_filename = image.name.replace(".jpg", ".pfm")
-        out_dir = os.path.join(dataset_path, '{}/sparse_colmap_v2/sparse_depth'.format(scan))
+        out_filename = image.name.replace(".jpg", ".pfm").replace(".png", ".pfm")
+        out_dir = os.path.join(dataset_path, '{}/sparse_colmap/sparse_depth'.format(scan))
         if not os.path.exists(out_dir):
             os.mkdir(out_dir)
 
@@ -150,7 +150,7 @@ if __name__ == "__main__":
 
 
     for scan in scans:
-        scan_folder = os.path.join(dataset_path, '{}/sparse_colmap_v2/triangulator/'.format(scan))
+        scan_folder = os.path.join(dataset_path, '{}/sparse_colmap/triangulator/'.format(scan))
 
         print("scan_folder: {}".format(scan_folder))
 
