@@ -58,6 +58,7 @@ def colmap_sparse_to_depth(scan_folder):
         XYZ_world = np.array(XYZ_world)
 
         # 3. [R|t] transform XYZ_world to XYZ_cam
+        #    colmap pose: from world to camera
         R = qvec2rotmat(image.qvec)
         t = image.tvec
 
