@@ -68,7 +68,8 @@ def colmap_sparse_to_depth(scan_folder):
         # 4. get the depth value
         depth_values = XYZ_cam[:, 2] # 3rd component
 
-        # 5.  project the 3d points to 2d pixel coordinate
+        # 5. project the 3d points to 2d pixel coordinate
+        #    2D normalized + multiply the intrinsic matrix (K)
         x_norm = XYZ_cam[:, 0] / XYZ_cam[:, 2]
         y_norm = XYZ_cam[:, 1] / XYZ_cam[:, 2]
         params = cameras[image.camera_id].params
