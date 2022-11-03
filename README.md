@@ -57,6 +57,7 @@ Sturcture-from-Motion using [COLMAP](https://colmap.github.io/index.html)
 The research works which adopt the sparse points to boost the accuracy of multi-view geometric reconstruction:
 + [Sparse prior guided deep multi-view stereo](https://www.sciencedirect.com/science/article/abs/pii/S0097849322001157)
 + [Geo-Neus: Geometry-Consistent Neural Implicit Surfaces Learning for Multi-view Reconstruction](https://arxiv.org/abs/2205.15848)
++ [Multi-View Guided Multi-View Stereo](https://arxiv.org/abs/2210.11467v1)
 
 ## Acknowledgement
 The image set of [SceauxCastle](https://github.com/openMVG/ImageDataset_SceauxCastle) is provided by the author of OpenMVG.
