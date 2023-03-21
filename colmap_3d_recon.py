@@ -114,8 +114,7 @@ def colmap_stereo_fusion(scan):
 
 if __name__ == "__main__":
     
-    scans = ["Barn", "Caterpillar", "Church", ]
-    #scans = ["Courthouse", "Ignatius", "Meetingroom", "Truck"]
+    scans = ["Barn", "Caterpillar", "Church", "Courthouse", "Ignatius", "Meetingroom", "Truck"]
     
     print("len of scans: {}".format(len(scans)))
     print("scans: {}".format(scans))

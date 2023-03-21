@@ -11,7 +11,7 @@
 import os
 import numpy as np
 
-from python.read_write_model import * # use for write cameras&images.txt
+from python.read_write_model import * # use for write cameras & images.txt
 from python.database_v2 import *
 
 os.environ["CUDA_VISIBLE_DEVICES"]='2'
