@@ -2,12 +2,12 @@
 
 PC端显示（Meshlab）：
 
-![Meshlab_screenshot](./images/meshlab_screenshot.png)
-
+<img src="./images/meshlab_screenshot.png" height=600>
 
 移动端显示：
 
-![mobile_3d_viewer](./images/mobile_3d_viewer.jpg)
+<img src="./images/mobile_3d_viewer.jpg" height=800>
+
 
 **格式转换**：PLY-->OBJ-->glTF2.0 (.glb文件)
 
